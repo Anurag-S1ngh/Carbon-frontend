@@ -19,12 +19,12 @@ export default function Navbar() {
         <nav className="w-full grid grid-cols-3 items-center">
           {/* logo */}
           <div className="text-lg">Radium</div>
-          <div className="flex items-center gap-8 text-sm text-primary/60">
+          <div className="flex items-center gap-4 text-sm text-primary/60">
             {navbarItems.map((e) => {
               return (
                 <Link
                   href={e.href}
-                  className="hover:text-primary cursor-pointer"
+                  className="hover:text-primary cursor-pointer hover:bg-accent py-1 px-2"
                   key={e.name}
                 >
                   {e.name}

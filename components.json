@@ -20,6 +20,7 @@
   },
   "registries": {
     "@hextaui": "https://hextaui.com/r/{name}.json",
-    "@magicui": "https://magicui.design/r/{name}.json"
+    "@magicui": "https://magicui.design/r/{name}.json",
+    "@fancy": "https://fancycomponents.dev/r/{name}.json"
   }
 }
